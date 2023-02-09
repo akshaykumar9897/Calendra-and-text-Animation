@@ -1,0 +1,165 @@
+/* container calendra start */
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.master {
+  width: 325px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+thead tr th {
+  background-color: rgb(167, 167, 167);
+  color: white;
+}
+/* container calendra End */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* main container text Animation start */
+#container1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* container for 1 */
+#for1 {
+  width: 220px;
+  height: 150px;
+  border: 2px solid black;
+  overflow: hidden;
+  margin: 15px;
+  text-align: center;
+}
+div.cool h2 {
+  color: rgb(153, 153, 153);
+}
+div.main h2 {
+  color: rgb(153, 153, 153);
+}
+.loop {
+  background-color: rgb(66, 197, 138);
+  color: white;
+  animation: loop 7s linear infinite;
+}
+
+/* container for 2 */
+#for2 {
+  width: 220px;
+  height: 150px;
+  border: 2px solid black;
+  /* overflow: hidden; */
+  text-align: center;
+  margin: 20px;
+}
+div.cool2 h2 {
+  color: rgb(153, 153, 153);
+}
+div.main2 h2 {
+  color: rgb(153, 153, 153);
+}
+div.loop2 h2 {
+  background-color: rgb(78, 199, 243);
+  color: white;
+  animation: loop2 6s linear infinite;
+}
+
+/* container 3 */
+#for3 {
+  width: 220px;
+  height: 150px;
+  border: 2px solid black;
+  overflow: hidden;
+  text-align: center;s
+}
+
+div.cool3 h2 {
+  color: rgb(153, 153, 153);
+}
+div.main3 h2 {
+  color: rgb(153, 153, 153);
+}
+div.loop3 h2 {
+  background-color: rgb(220, 20, 60);
+  color: white;
+  animation: loop3 8s linear infinite;
+}
+/* animation container start */
+
+@keyframes loop {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loop3 {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* animation container End */
+/* main container text Animation End */
